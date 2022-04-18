@@ -42,7 +42,10 @@ html{
 
 .main{
     grid-area: main;
-    background-color: rgb(166, 78, 147);
+    background-color: #c7e9fb;
+    background-image: linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%);
+
+
 }
 
 .sidebar{
@@ -90,11 +93,11 @@ html{
 	justify-content: center;
 	width: 15%;
 	height: 40px;
-	background: #141414;
+	background: #000000;
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
-	font-size: 10px;
-	font-weight: 500;
+	font-size: 1vw;
+	font-weight: 600;
 	border: none;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -500,4 +503,9 @@ footer{
 .destacados:hover{
     font-size: 3vw;
     color: #da4a9e;
+}
+
+.btn:hover{
+    font-size: 1.5vw;
+    background:rgba(132, 3, 3, 0.969);
 }
