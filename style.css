@@ -269,7 +269,7 @@ a{
 .destacados{
     font-family: 'Krona One', sans-serif;
     border: #000000 solid 0.2rem;
-    font-size: 3vw;
+    font-size: 2vw;
     justify-content: center;
     display: flex;
     margin-top: 5%;
@@ -277,6 +277,7 @@ a{
     width: 30%;
     padding: 2vh 0 2vh 0;
     margin: 5vh 0 3vw 0;
+    transition: all 1s;
 }
 
 .centered{
@@ -494,3 +495,9 @@ footer{
     position:absolute;
 }
 
+/*AGREGANDO RAMAS*/
+
+.destacados:hover{
+    font-size: 3vw;
+    color: #da4a9e;
+}
